@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Ofgem.Lib.BUS.AuditLogging" Version="0.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Ofgem.API.BUS.BusinessAccounts.Domain\Ofgem.API.BUS.BusinessAccounts.Domain.csproj" />
+    <ProjectReference Include="..\Ofgem.API.BUS.BusinessAccounts.Core\Ofgem.API.BUS.BusinessAccounts.Core.csproj" />
+  </ItemGroup>
+
+</Project>
